@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.content {
+	max-width: 1366px;
+	margin: 0 auto;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.main {
+	background-image: url(../img/mainBackground.png);
+	background-position: center;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 6%;
+	margin-right: 6%;
+	padding-top: 30px;
+}
+.headerInfo {
+	display: flex;
+	align-items: center;
+}
+.headerInfo .text {
+	display: flex;
+	align-items: center;
+}
+.headerInfo img {
+	margin-left: 20px;
+}
+.headerInfo .text {
+	color: #ffffff;
+	font-size: 14px;
+}
+.headerInfo .text a {
+	color: #ffffff;
+	font-weight: 400;
+	text-decoration: none;
+	margin-right:  20px;
+}
+.headerInfo .text p {
+	color: #ffffff;
+	font-weight: 700;
+}
+.mainLogo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 45px;
+}
+h1 {
+	font-size: 34px;
+	font-weight: 300;
+	text-align: center;
+	color: #ffffff;
+	margin-top: -15px;
+    letter-spacing: 0.02em;
+}
+.inputForm {
+	min-height: 150px;
+}
+.more {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 55px;
+    padding-bottom: 80px;
+    margin-bottom: 0;
+}
+
+
+.about {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-top: 35px;
+	background-color: #f3f3f3;
+	background-image: url(../img/aboutLogo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.about h2 {
+	max-width: 360px;
+	font-size: 24px;
+	font-weight: 300;
+}
+.about h2 strong {
+	font-weight: 400;
+}
+.prices {
+	display: flex;
+	justify-content: space-between;
+}
+.prices p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.prices h3 {
+	font-size: 30px;
+	font-weight: 400;
+}
+.income img {
+	margin-bottom: -8px;
+}
+.income h3 {
+	color: #63b42c;
+}
