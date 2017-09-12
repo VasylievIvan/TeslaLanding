@@ -2,6 +2,14 @@ body {
 	margin: 0;
 	padding: 0;
 }
+a {
+	text-decoration: none;
+}
+.maket {
+	position: absolute;
+	opacity: 0.35;
+	margin-top: -1600px;
+}
 .content {
 	max-width: 1366px;
 	margin: 0 auto;
@@ -10,6 +18,7 @@ body {
 .main {
 	background-image: url(../img/mainBackground.png);
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .header {
@@ -40,6 +49,7 @@ body {
 	font-weight: 400;
 	text-decoration: none;
 	margin-right:  20px;
+	border-bottom: solid 1px #d68945;
 }
 .headerInfo .text p {
 	color: #ffffff;
@@ -71,6 +81,10 @@ h1 {
     padding-bottom: 80px;
     margin-bottom: 0;
 }
+.more a {
+	color: #ffffff;
+	text-decoration: none;
+}
 
 
 .about {
@@ -80,15 +94,18 @@ h1 {
 	padding-left: 6%;
 	padding-right: 6%;
 	padding-top: 35px;
+	padding-bottom: 20px;
 	background-color: #f3f3f3;
 	background-image: url(../img/aboutLogo.png);
 	background-position: center;
 	background-repeat: no-repeat;
+
 }
 .about h2 {
 	max-width: 360px;
 	font-size: 24px;
 	font-weight: 300;
+	max-width: 35%;
 }
 .about h2 strong {
 	font-weight: 400;
@@ -96,18 +113,290 @@ h1 {
 .prices {
 	display: flex;
 	justify-content: space-between;
+	max-width: 40%;
+	flex-wrap: wrap;
 }
 .prices p {
 	font-size: 14px;
 	font-weight: 400;
+	margin-top: 40px;
+    margin-bottom: 5px;
 }
 .prices h3 {
 	font-size: 30px;
 	font-weight: 400;
+	margin-top: 0;
 }
 .income img {
 	margin-bottom: -8px;
 }
 .income h3 {
 	color: #63b42c;
+}
+.price {
+	margin-right: 50px;
+}
+.income {
+	margin-right: 25px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 60px;
+    font-size: 17px;
+    background-color: #f3f3f3;
+    padding-bottom: 50px;
+}
+.footerButton {
+	background-color: #ea7c23;
+	height: 55px;
+	width: 255px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	text-align: center;
+}
+.footerButton a {
+	color: #ffffff;
+}
+.footerLogo {
+	margin-top: 45px;
+}
+
+
+
+
+.timeline {
+	height: auto;
+	background-color: #f3f3f3;
+	    padding-bottom: 50px;
+
+}
+.timeline img {
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.timeline-tab {
+	display: none;
+}
+.timeline-mob {
+	display: none;
+}
+.timeline h2 {
+	font-weight: 300;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 0;
+    padding-top: 40px;
+}
+.timelineButton {
+	width: 305px;
+	height: 55px;
+	margin: 0 auto;
+	border: 1px solid #23417f;
+	margin-top: 30px;
+}
+.timelineButton p {
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	color: #000000;
+}
+.chartButton {
+	width: 255px;
+	height: 55px;
+	margin: 0 auto;
+	border: 1px solid #23417f;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.chartButton p {
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	color: #000000;
+}
+
+.chart {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.chart img {
+	width: 88%;
+	margin-top: 100px;
+}
+.chart-tab {
+	display: none;
+}
+.chart-mob {
+	display: none;
+}
+
+
+.qotes {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.qoteBlock {
+	display: flex;
+	align-items: center;
+	width: 85%;
+}
+.qoteCarousel {
+	max-width: 900px;
+}
+.qotes h4 {
+	font-size: 18px;
+	font-weight: 400;
+}
+.qotes h5 {
+	margin-bottom: 0;
+	font-size: 24px;
+	font-weight: 300;
+}
+.qotes .textBlock {
+	max-width: 75%;
+}
+
+.slick-dots {
+	text-align:left !important;
+	}
+
+@media screen and (max-width: 1125px) {
+	.price {
+    margin-right: 30px;
+}
+	.prices p {
+		margin-top: 0;
+	}
+	.prices {
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.prices h3 {
+		font-size: 24px;
+	}
+	.income img {
+		height: 26px;
+		margin-bottom: -3px;
+	}
+	.about h2 {
+		font-size: 20px;
+	}
+
+	}
+
+
+@media screen and (max-width: 768px) {
+	.qotes {
+		flex-direction: column;
+	}
+	.price {
+    margin-right: 20px;
+	}
+	.prices h3 {
+		font-size: 22px;
+	}
+	.income img {
+		height: 24px;
+	}
+	.about h2 {
+		font-size: 19px;
+	}
+	.timeline-tab {
+		display: block;
+	}
+	.timeline-web {
+		display: none;
+	}
+	.chart-tab {
+		display: block;
+	}
+	.chart-web {
+		display: none;
+	}
+	.headerInfo .text {
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+	.headerInfo .text p {
+		margin-bottom: 0;
+		font-size: 12px;
+	}
+	.headerInfo .text a {
+		margin-right: 0;
+	}
+	.content {
+		background-size: 100%;
+	}
+	h1 {
+		font-size: 30px;
+	}
+
+}
+
+
+@media screen and (max-width: 640px) {
+	.qoteBlock {
+		flex-direction: column;
+	}
+	.about h2 {
+		text-align:center;
+	}
+	.prices {
+		justify-content: center;
+	}
+	.about h2 {
+		max-width: 100%;
+	}
+	.prices {
+		max-width: 100%;
+	}
+	.timeline-mob {
+		display: block;
+	}
+	.timeline-tab {
+		display: none;
+	}
+	.timeline-web {
+		display: none;
+	}
+	.chart-mob {
+		display: block;
+	}
+	.chart-tab {
+		display: none;
+	}
+	.chart-web {
+		display: none;
+	}
+	.about {
+		background-image: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.about {
+		flex-direction: column;
+		align-items: center;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	.headerInfo .text {
+		display: none;
+	}
 }
