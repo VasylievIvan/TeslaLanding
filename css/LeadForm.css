@@ -1,0 +1,327 @@
+input {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+.leadFormContainer {
+}
+
+    .leadFormContainer .leadForm {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 1em;
+        max-width: 720px;
+    }
+    /*Header of form*/
+    .leadFormContainer .FormHeaderDiv {
+        text-align: center;
+    }
+
+    .leadFormContainer .FormHeader {
+        margin: auto;
+        text-transform: uppercase;
+        color: #000000;
+        font-size: 1.12em;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        display: none;
+    }
+    /******************************/
+
+    /******DIVS***********/
+    .leadFormContainer .commonDivs {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+        padding-top: 9px;
+        position: relative;
+        width: 220px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        color: #ffffff;
+    }
+
+    .leadFormContainer .fnameDiv {
+    }
+
+    .leadFormContainer .lnameDiv {
+    }
+
+    .leadFormContainer .countryDiv {
+        position: relative;
+    }
+
+    .leadFormContainer .phoneDiv {
+    }
+
+    .leadFormContainer .emailDiv {
+    }
+
+    .leadFormContainer .submitDiv {
+    }
+
+    .leadFormContainer .helpLinkDiv {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .leadFormContainer .errMessageDiv {
+        display: none;
+        position: relative;
+        height: 12px;
+    }
+
+    /*******************/
+
+    /*Input Lables*/
+    .leadFormContainer .commonLabels {
+        position: absolute;
+        font-size: 1em;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+        color: #888888;
+        top: 23px;
+        left: 10px;
+        transition: 0.5s;
+        cursor: text;
+    }
+
+    .leadFormContainer .labelFname {
+    }
+
+    .leadFormContainer .labelLname {
+    }
+
+    .leadFormContainer .labelCountry {
+    }
+
+    .leadFormContainer .labelPhone {
+    }
+
+    .leadFormContainer .labelEmail {
+    }
+
+    /**********************/
+
+    .leadFormContainer .labelActive {
+        /*top: 2px;
+        left: 10px;
+        font-size: 0.75em;
+        transition: 0.5s;*/
+        display: none;
+    }
+
+    /******Inputs***************/
+    .leadFormContainer .commonInput {
+        padding-top: 5px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #888888;
+        width: 100%;
+        height: 35px;
+        font-size: 1em;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        white-space: nowrap;
+        overflow: hidden;
+        line-height: 35px;
+        height: 35px;
+        text-indent: 10px;
+        outline: none;
+    }
+
+
+    .leadFormContainer .fnameInput:focus {
+         border-bottom-color: #000000;
+    }
+
+    .leadFormContainer .lnameInput:focus {
+         border-bottom-color: #000000;
+    }
+
+    .leadFormContainer .countryInput:focus {
+         border-bottom-color: #000000;
+    }
+
+    .leadFormContainer .phoneCountryInput {
+        width: 26%;
+        color: #888888;
+        cursor: not-allowed;
+    }
+
+    .leadFormContainer .phoneInput {
+        width: 74%;
+        margin-left: -2%;
+    }
+
+    .leadFormContainer .emailInput:focus {
+         border-bottom-color: #000000;
+    }
+
+    .leadFormContainer .submitButton {
+        width: 220px;
+        height: 50px;
+        border: 0px;
+        color: #fdfdfd;
+        background-color: #d68945;
+        font-size: 1.12em;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+        .leadFormContainer .submitButton:hover {
+            background-color: #d68945;
+        }
+
+        .leadFormContainer .submitButton:active {
+            background-color: #a86325;
+        }
+
+
+    .leadFormContainer .helpLink {
+        font-size: 0.75em;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+        display: none;
+    }
+
+
+    /***************************/
+    .leadFormContainer .spanErrMessage {
+        color: #e64044;
+        font-size: 0.75em;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+        position: relative;     
+    }
+
+    .leadFormContainer .liveSearch {
+        position: absolute;
+        padding-left: 10px;
+        background-color: #f8f8f8;
+        z-index: 3;
+        width: 100%;
+        width: -moz-available;
+        width: -webkit-fill-available;
+        height: 200%;
+        overflow: auto;
+        border: 1px solid #888888;        
+    }
+
+    .leadFormContainer .country {
+        margin-top:10px;
+        color: #000;
+    }
+
+        .leadFormContainer .country:hover {
+            background-color: #e7e7e7;
+            cursor: pointer;
+        }
+
+    .leadFormContainer #livesearch {
+    }
+
+    
+
+  
+    .leadFormContainer .emailInput {
+    }
+
+    .leadFormContainer .submitButton {
+    }
+
+
+    .leadFormContainer .errorInput {
+        border-bottom-color: #ff0000;
+    }
+
+    .leadFormContainer .rightInput {
+        border-bottom-color: #00a0ce;
+    }
+
+
+@media screen and (max-width: 768px) {
+    .leadFormContainer .leadForm {
+        flex-direction: column;
+    }
+
+
+
+}
+/*Убрать изменение цвета полсе автозаполнения Chrom*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+/*****************************************/
+
+
+/********FONTS****************/
+@font-face {
+    font-family: 'GothaProBla';
+    src: url('../fonts/Gotham Pro/GothaProBla.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProBlaIta';
+    src: url('../fonts/Gotham Pro/GothaProBlaIta.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProBol';
+    src: url('../fonts/Gotham Pro/GothaProBol.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProBolIta';
+    src: url('../fonts/Gotham Pro/GothaProBolIta.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProIta';
+    src: url('../fonts/Gotham Pro/GothaProIta.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProLig';
+    src: url('../fonts/Gotham Pro/GothaProLig.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProLigIta';
+    src: url('../fonts/Gotham Pro/GothaProLigIta.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProMed';
+    src: url('../fonts/Gotham Pro/GothaProMed.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProMedIta';
+    src: url('../fonts/Gotham Pro/GothaProMedIta.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProNarBol';
+    src: url('../fonts/Gotham Pro/GothaProNarBol.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProNarMed';
+    src: url('../fonts/Gotham Pro/GothaProNarMed.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GothaProReg';
+    src: url('../fonts/Gotham Pro/GothaProReg.otf') format('opentype');
+}
