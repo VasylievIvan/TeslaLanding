@@ -19,7 +19,7 @@ a {
 	background-image: url(../img/mainBackground.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	/*background-size: cover;*/
+	background-size: cover;
 }
 
 .header {
@@ -71,7 +71,7 @@ h1 {
     letter-spacing: 0.02em;
 }
 .inputForm {
-	min-height: 150px;
+	min-height: 160px;
 }
 .more {
 	color: #ffffff;
